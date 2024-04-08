@@ -131,7 +131,7 @@ def cli_main():
         help='QSM output end with .nii.gz'
     )
     parser.add_argument(
-        '--b_vec', nargs=3, type=float,
+        '--b_vec', 
         default=(0, 0, 1),
         help='B vector, set to axial coordinate by default'
     )
