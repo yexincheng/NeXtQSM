@@ -80,7 +80,7 @@ if __name__ == "__main__":
         help='QSM output end with .nii.gz'
     )
     parser.add_argument(
-        '--b_vec', 
+        '--b_vec', nargs=3, type=float,
         default=(0, 0, 1),
         help='B vector, set to axial coordinate by default'
     )
